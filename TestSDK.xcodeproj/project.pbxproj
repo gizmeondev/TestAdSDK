@@ -12,6 +12,7 @@
 		8768E485229E458300DAFB96 /* TestSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768E484229E458300DAFB96 /* TestSDKTests.swift */; };
 		8768E487229E458300DAFB96 /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8768E479229E458300DAFB96 /* TestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8768E491229E45A300DAFB96 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768E490229E45A300DAFB96 /* StringGenerator.swift */; };
+		8768E51E229EABA900DAFB96 /* ConnectedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768E51D229EABA900DAFB96 /* ConnectedAd.swift */; };
 		FD5E4E8C0A5087ED14FA21BC /* Pods_TestSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71451340FD88DDF0D7EDFEBE /* Pods_TestSDKTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		8768E484229E458300DAFB96 /* TestSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSDKTests.swift; sourceTree = "<group>"; };
 		8768E486229E458300DAFB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8768E490229E45A300DAFB96 /* StringGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringGenerator.swift; sourceTree = "<group>"; };
+		8768E51D229EABA900DAFB96 /* ConnectedAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectedAd.swift; sourceTree = "<group>"; };
 		E462C2911B1A649FF664A6BC /* Pods-TestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK.release.xcconfig"; path = "Target Support Files/Pods-TestSDK/Pods-TestSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 				8768E479229E458300DAFB96 /* TestSDK.h */,
 				8768E47A229E458300DAFB96 /* Info.plist */,
 				8768E490229E45A300DAFB96 /* StringGenerator.swift */,
+				8768E51D229EABA900DAFB96 /* ConnectedAd.swift */,
 			);
 			path = TestSDK;
 			sourceTree = "<group>";
@@ -109,7 +112,6 @@
 				275604546B68D3CB681C67DE /* Pods-TestSDKTests.debug.xcconfig */,
 				31F6F54C7F66F1AB83E09652 /* Pods-TestSDKTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -280,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8768E51E229EABA900DAFB96 /* ConnectedAd.swift in Sources */,
 				8768E491229E45A300DAFB96 /* StringGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
