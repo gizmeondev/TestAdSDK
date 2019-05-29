@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "TestSDK"
   spec.exclude_files = "Classes/Exclude"
-
+  spec.dependencies = { "mopub-ios-sdk/Core": "5.3.0", "Google-Mobile-Ads-SDK": ">= 7.14.0" }
 end
